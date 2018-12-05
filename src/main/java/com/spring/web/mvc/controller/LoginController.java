@@ -19,6 +19,8 @@ public class LoginController {
 		//We are setting message into request scope 
 		//so that we can fetch it on JSP
 		request.setAttribute("message",message);
+		//why we cannot use extension
+		//JSP,Velosity,ThemeLeaf, 
 		return "welcome"; //welcome.jsp
 	}
 }

@@ -13,7 +13,7 @@
 
 <div class="container">
   <h2>Learning Spring 5.x MVC!</h2>
-  <img src="images/1.jpg" style="height: 330px;">
+  <img src="${pageContext.request.contextPath}/images/1.jpg" style="height: 330px;">
   <hr/><hr/><hr/><hr/>
     <div class="form-group">
       <label for="name">${message}</label>

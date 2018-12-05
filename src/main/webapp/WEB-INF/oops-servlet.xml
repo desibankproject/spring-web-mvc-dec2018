@@ -17,7 +17,6 @@
 	  	picture for these resources
 	  -->
 	 <mvc:resources mapping="/images/**" location="/images/" />
-	
 
 	<!-- This is enabling this annotation = @GetMapping -->
 	<mvc:annotation-driven />
@@ -25,6 +24,7 @@
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources 
 		in the /directory
 		/welcome.jsp
+		/guest.jsp
 		 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
